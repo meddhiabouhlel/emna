@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Don't Be Bored! 💕 Stitch Says Hi</title>
+  <title>Don't Be Bored! 💕</title>
   <meta name="description" content="A cozy little Stitch hideaway full of cuddles, giggles & cures for boredom." />
   <link
     href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap"
@@ -616,6 +616,8 @@
         <button class="mood-card" data-mood="bored">ijaa nlawnouu 🎨</button>
         <button class="mood-card" data-mood="cafe">ijaa namlou 9ahwa ☕</button>
         <button class="mood-card" data-mood="biceps">ijaa chouf lbiceps 💪</button>
+        <button class="mood-card" data-mood="warda">ijaa khoudh warda 🌹</button>
+
       </div>
 
       <!-- Calm / Sad zone -->
@@ -680,7 +682,19 @@
       </div>
       </div>
 
-
+    <div class="zone" id="zone-warda">
+        <div class="zone-grid">
+          <img src="warda.jpg" class="zone-img bounce" />
+          <div>
+            <h3>khoudh wardaa ayy </h3>
+            <p class="note">kn 3omrek ma rit warda cheda warda hak rit tw ;) </p>
+          </div>
+          <div id="activity-area">
+            <p class="activity-placeholder"> </p>
+          </div>
+        </div>
+      </div>
+      </div>
 
 
     </section>
@@ -772,7 +786,7 @@
 
       // --- Mood Selection ---
       const moodCards = document.querySelectorAll('.mood-card');
-      const zones = { calm: 'zone-calm', bored: 'zone-bored', cafe: 'zone-cafe', biceps: 'zone-biceps' };
+      const zones = { calm: 'zone-calm', bored: 'zone-bored', cafe: 'zone-cafe', biceps: 'zone-biceps' ,warda : 'zone-warda'};
 
       moodCards.forEach(card => {
         card.addEventListener('click', () => {
