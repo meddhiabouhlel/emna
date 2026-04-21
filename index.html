@@ -617,6 +617,7 @@
         <button class="mood-card" data-mood="cafe">ijaa namlou 9ahwa ☕</button>
         <button class="mood-card" data-mood="biceps">ijaa chouf lbiceps 💪</button>
         <button class="mood-card" data-mood="warda">ijaa khoudh warda 🌹</button>
+        <button class="mood-card" data-mood="warda">ijaa chouf stouu</button>
 
       </div>
 
@@ -696,6 +697,19 @@
       </div>
       </div>
 
+      <div class="zone" id="zone-stou">
+        <div class="zone-grid">
+          <video src="Video.mp4" class="zone-img bounce" />
+          <div>
+            <h3>mmmmmmmm jit tejriii</h3>
+            <p class="note">jad aliik chnhotlk stou mt3k ma yezich thabat fih story w zid thb tal9ah lena  </p>
+          </div>
+          <div id="activity-area">
+            <p class="activity-placeholder"> </p>
+          </div>
+        </div>
+      </div>
+      </div>
 
     </section>
 
@@ -786,7 +800,7 @@
 
       // --- Mood Selection ---
       const moodCards = document.querySelectorAll('.mood-card');
-      const zones = { calm: 'zone-calm', bored: 'zone-bored', cafe: 'zone-cafe', biceps: 'zone-biceps' ,warda : 'zone-warda'};
+      const zones = { calm: 'zone-calm', bored: 'zone-bored', cafe: 'zone-cafe', biceps: 'zone-biceps' ,warda : 'zone-warda',stou : 'zone-stou'};
 
       moodCards.forEach(card => {
         card.addEventListener('click', () => {
